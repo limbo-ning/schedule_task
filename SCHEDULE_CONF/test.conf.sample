@@ -1,0 +1,9 @@
+[DEFAULT]
+queue = 
+schedule_type = 20
+schedule_id = 1
+auto_ack = 1
+
+[test.py]
+process_or_thread = thread
+cmd = run()
